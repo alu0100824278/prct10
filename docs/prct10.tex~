@@ -1,0 +1,117 @@
+\documentclass[spanish,a4paper,10pt]{article}
+
+\usepackage{latexsym,amsfonts,amssymb,amstext,amsthm,float,amsmath}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{doc}
+
+
+\begin{document}
+\title{El número PI: $\pi$ }
+\author{Jorge Antonio Herrera Alonso}
+\date{viernes, 11 de abril de 2014}
+
+\maketitle
+
+\begin{abstract}
+
+En este informe abordaremos como tema principal el estudio de número $\pi$, ya que ha sido una parte importante de las matemáticas a lo largo de la historia de las ciencias.
+
+\end{abstract}
+
+\section{Historia del número $\pi$}
+
+La búsqueda del mayor número de decimales del número $\pi$ ha supuesto un esfuerzo constante de numerosos científicos a lo largo de la historia. Algunas aproximaciones históricas de $\pi$ son las siguientes.\cite{prim}
+
+\leftline{\bf Referencias bíblicas}
+Una de las referencias indirectas más antiguas del valor aproximado de $\pi$ se puede encontrar en un versículo de la Biblia:
+
+«Hizo fundir asimismo un mar de diez codos de un lado al otro, perfectamente redondo. Tenía cinco codos de altura y a su alrededor un cordón de treinta codos.»
+
+\subsection{Matemática Islámica}
+En el siglo IX Al-Jwarizmi, en su Álgebra (Hisab al yabr ua al muqabala), hace notar que el hombre práctico usa 22/7 como valor de $\pi$, el geómetra usa 3, y el astrónomo 3,1416. En el siglo XV, el matemático persa Ghiyath al-Kashi fue capaz de calcular el valor aproximado de $\pi$ con nueve dígitos, empleando una base numérica sexagesimal, lo que equivale a una aproximación de 16 dígitos decimales: 2$\pi$ = 6,2831853071795865.
+
+\leftline{\bf Antigüedad Clásica}
+
+El matemático griego Arquímedes (siglo III a. C.) fue capaz de determinar el valor de $\pi$ entre el intervalo comprendido por 3 10/71, como valor mínimo, y 3 1/7, como valor máximo. Con esta aproximación de Arquímedes se obtiene un valor con un error que oscila entre 0,024 y 0,040 sobre el valor real. El método usado por Arquímedes5 era muy simple y consistía en circunscribir e inscribir polígonos regulares de n-lados en circunferencias y calcular el perímetro de dichos polígonos. Arquímedes empezó con hexágonos circunscritos e inscritos, y fue doblando el número de lados hasta llegar a polígonos de 96 lados.
+
+Alrededor del año 20 d. C., el arquitecto e ingeniero romano Vitruvio calcula $\pi$ como el valor fraccionario 25/8 midiendo la distancia recorrida en una revolución por una rueda de diámetro conocido.
+
+En el siglo II, Claudio Ptolomeo proporciona un valor fraccionario por aproximaciones:
+
+ $\pi$ =  \[377/120 \approx 3.1416... \]
+
+\leftline{\bf Renacimiento Europeo}
+A partir del siglo XII, con el uso de cifras arábigas en los cálculos, se facilitó mucho la posibilidad de obtener mejores cálculos para $\pi$. El matemático Fibonacci, en su Practica Geometriae, amplifica el método de Arquímedes, proporcionando un intervalo más estrecho. Algunos matemáticos del siglo XVII, como Viète, usaron polígonos de hasta 393.216 lados para aproximarse con buena precisión a 3,141592653. En 1593 el flamenco Adriaan van Roomen (Adrianus Romanus) obtiene una precisión de 16 dígitos decimales usando el método de Arquímedes.
+
+\subsection{Época moderna pre-computacional}
+En 1610 el matemático Ludolph van Ceulen calculó los 35 primeros decimales de $\pi$. Se dice que estaba tan orgulloso de esta hazaña que lo mandó grabar en su lápida. Los libros de matemática alemanes durante muchos años denominaron a $\pi$ como número ludolfiano. En 1665 Isaac Newton desarrolla la serie
+
+\footnote{"Fuente: www.wikipedia.org"}
+
+\section{Características Matemáticas}
+\leftline{\bf Definiciones}
+Euclides fue el primero en demostrar que la relación entre una circunferencia y su diámetro es una cantidad constante. No obstante, existen diversas definiciones del número $\pi$, pero las más común es:\cite{seg}
+
+    $\pi$ es la relación entre la longitud de una circunferencia y su diámetro.
+
+Por tanto, también $\pi$ es:
+
+    El área de un círculo unitario (de radio unidad del plano euclídeo).
+    El menor numero real x positivo tal que \[[tex]\sen x = 0[/tex]\].
+
+También es posible definir analíticamente $\pi$; dos definiciones son posibles:
+
+    La ecuación sobre los números complejos \[ e^{ix}+1=0 \] admite una infinidad de soluciones reales positivas, la más pequeña de las cuales es precisamente $\pi$ (véase identidad de Euler).
+    La ecuación diferencial \[ S''(x)+S(x)=0 \] con las condiciones de contorno \[ S(0)=0, S'(0)=1 \] para la que existe solución única, garantizada por el teorema de Picard-Lindelöf, es un función analítica (la función trigonométrica \[sin(x))\] cuya raíz positiva más pequeña es precisamente $\pi$.
+
+\leftline{\bf Número irracional y trascendente}
+Se trata de un número irracional, lo que significa que no puede expresarse como fracción de dos números enteros, como demostró Johann Heinrich Lambert en 1761 (o 1767). También es un número trascendente, es decir, que no es la raíz de ningún polinomio de coeficientes enteros. En el siglo XIX el matemático alemán Ferdinand Lindemann demostró este hecho, cerrando con ello definitivamente la permanente y ardua investigación acerca del problema de la cuadratura del círculo indicando que no tiene solución.
+
+También se sabe que $\pi$ tampoco es un número de Liouville (Mahler, 1953), es decir, no sólo es trascendental sino que no puede ser aproximado por una secuencia de racionales "rápidamente convergente"
+
+\footnote{"Fuente: www.wikipedia.org"}
+
+\leftline{\bf Gráficos}
+\begin{figure}
+ \centering
+  \includegraphics{figura1}
+ \caption{Mi figura}
+ \label{fig:Grafico}
+\end{figure}
+
+En la Figura \ref{fig:Grafico} se muestra un ejemplo de lo que sea.
+
+\begin{tabbing}
+\leftline{\bf Algunas aproximaciones históricas de valores de $\pi$}
+Año \= Matemático \= Cultura \= Aproximación\\
+500 a.C \> Bandhayana \> India \> 3.09 \\
+250 a.C \> Arquímedes \> Griega \> 3.14163 \\
+263 d.C \> Liu Hui \> China \> 3.14159 \\
+
+\label{tab:Tabla}
+\end{tabbing}
+
+En la Tabla \ref{tab:Tabla} se muestran aproximaciones del número $\pi$ que se han realizado a lo largo de la historia.
+
+\section{Bibliografía}
+\begin{thebibliography}{2}
+\bibitem{prim}  \textsc{Historia del calculo},
+\textit{http://es.wikipedia.org}
+\bibitem{seg} \textsc{Defeniciones},
+\textit{http://es.wikipedia.org}
+
+\end{thebibliography}
+
+\end{document}
+
+
+
+
+
+
+
+
+
